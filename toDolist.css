@@ -1,0 +1,82 @@
+.inputField {
+    font-family: Helvetica;
+    font-size: 30px;
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.header {
+    font-family: Helvetica;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(246, 208, 39);
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+#toDo, #completedHeader, #completed{
+    font-family: Helvetica;
+    font-size: 30px;
+    text-align: left;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.button-container button {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.submit,.reset, .completedHeading {
+    border-radius: 6px;
+    font-size: 15px;
+    display: block;
+    border-color: black;
+
+    margin-top: 15px;
+    background-color: white;
+}
+
+.submit:hover,.reset:hover, .completedHeading:hover {
+    background-color: rgba(128, 128, 128, 0.658);
+    border-color: black;
+}
+
+#taskButton {
+    display: block;
+    text-align: center;
+    
+}
+
+.myCheckBox{
+    height: 17px;
+    width: 17px;
+    margin-top: 32px;
+}
+
+.myCheckBox:hover{
+    background-color:rgba(128, 128, 128, 0.658)
+}
+
+.autograph {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-family: Cochin;
+}
+
+.h4Container {
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: 1000;
+}
+
+.completedHeading{
+    display: inline;
+}
